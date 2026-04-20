@@ -1,0 +1,50 @@
+categories:
+  tech:
+    label: "Tecnología"
+    emoji: "💻"
+    color: "#6366f1"
+    feeds:
+      - name: "Hacker News"
+        url: "https://hnrss.org/frontpage"
+      - name: "The Verge"
+        url: "https://www.theverge.com/rss/index.xml"
+      - name: "MIT Technology Review"
+        url: "https://www.technologyreview.com/feed/"
+
+  programming:
+    label: "Programación"
+    emoji: "🧑‍💻"
+    color: "#8b5cf6"
+    feeds:
+      - name: "DEV.to"
+        url: "https://dev.to/feed"
+      - name: "CSS Tricks"
+        url: "https://css-tricks.com/feed/"
+
+  nutrition:
+    label: "Nutrición"
+    emoji: "🥗"
+    color: "#10b981"
+    feeds:
+      - name: "Examine.com"
+        url: "https://examine.com/feed/"
+      - name: "Precision Nutrition"
+        url: "https://www.precisionnutrition.com/feed"
+
+  science:
+    label: "Ciencia"
+    emoji: "🔬"
+    color: "#f59e0b"
+    feeds:
+      - name: "Science Daily"
+        url: "https://www.sciencedaily.com/rss/all.xml"
+
+  productivity:
+    label: "Productividad"
+    emoji: "🎯"
+    color: "#ec4899"
+    feeds:
+      - name: "James Clear"
+        url: "https://jamesclear.com/feed"
+      - name: "Paul Graham Essays"
+        url: "https://www.aaronsw.com/2002/feeds/pgessays.rss"
