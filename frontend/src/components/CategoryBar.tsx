@@ -7,6 +7,8 @@ const CATEGORIES = [
   { key: "nutrition", label: "Nutrición", emoji: "🥗" },
   { key: "science", label: "Ciencia", emoji: "🔬" },
   { key: "productivity", label: "Foco", emoji: "🎯" },
+  { key: "ia", label: "IA", emoji: "🤖" },
+{ key: "news", label: "Noticias", emoji: "📰" },
 ];
 
 interface Props {
