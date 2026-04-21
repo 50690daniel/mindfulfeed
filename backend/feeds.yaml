@@ -4,12 +4,28 @@ categories:
     emoji: "💻"
     color: "#6366f1"
     feeds:
-      - name: "Hacker News"
-        url: "https://hnrss.org/frontpage"
-      - name: "The Verge"
-        url: "https://www.theverge.com/rss/index.xml"
-      - name: "MIT Technology Review"
-        url: "https://www.technologyreview.com/feed/"
+      - name: "Xataka"
+        url: "https://feeds.weblogssl.com/xataka2"
+      - name: "Hipertextual"
+        url: "https://hipertextual.com/feed"
+      - name: "MIT Technology Review ES"
+        url: "https://www.technologyreview.es/feed"
+      - name: "Gizmodo ES"
+        url: "https://es.gizmodo.com/rss"
+
+  ia:
+    label: "Inteligencia Artificial"
+    emoji: "🤖"
+    color: "#a855f7"
+    feeds:
+      - name: "Xataka IA"
+        url: "https://feeds.weblogssl.com/xataka2"
+      - name: "Hipertextual IA"
+        url: "https://hipertextual.com/tag/inteligencia-artificial/feed"
+      - name: "The Rundown AI"
+        url: "https://www.therundown.ai/feed"
+      - name: "Import AI (Jack Clark)"
+        url: "https://importai.substack.com/feed"
 
   programming:
     label: "Programación"
@@ -18,8 +34,12 @@ categories:
     feeds:
       - name: "DEV.to"
         url: "https://dev.to/feed"
+      - name: "Hacker News"
+        url: "https://hnrss.org/frontpage"
       - name: "CSS Tricks"
         url: "https://css-tricks.com/feed/"
+      - name: "Bitácora de Programación"
+        url: "https://www.campusmvp.es/recursos/rss"
 
   nutrition:
     label: "Nutrición"
@@ -28,6 +48,10 @@ categories:
     feeds:
       - name: "Examine.com"
         url: "https://examine.com/feed/"
+      - name: "Vitónica"
+        url: "https://feeds.weblogssl.com/vitonica"
+      - name: "Directo al Paladar Salud"
+        url: "https://www.directoalpaladar.com/salud-y-nutricion/feed"
       - name: "Precision Nutrition"
         url: "https://www.precisionnutrition.com/feed"
 
@@ -36,8 +60,14 @@ categories:
     emoji: "🔬"
     color: "#f59e0b"
     feeds:
+      - name: "Muy Interesante"
+        url: "https://www.muyinteresante.es/rss"
+      - name: "National Geographic ES"
+        url: "https://www.nationalgeographic.com.es/rss/ciencia"
       - name: "Science Daily"
         url: "https://www.sciencedaily.com/rss/all.xml"
+      - name: "El País Ciencia"
+        url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada"
 
   productivity:
     label: "Productividad"
@@ -48,3 +78,19 @@ categories:
         url: "https://jamesclear.com/feed"
       - name: "Paul Graham Essays"
         url: "https://www.aaronsw.com/2002/feeds/pgessays.rss"
+      - name: "Planeta Chatbot"
+        url: "https://planetachatbot.com/feed/"
+
+  news:
+    label: "Noticias"
+    emoji: "📰"
+    color: "#ef4444"
+    feeds:
+      - name: "El País"
+        url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada"
+      - name: "El Mundo"
+        url: "https://e00-elmundo.uecdn.es/rss/portada.xml"
+      - name: "BBC Mundo"
+        url: "https://feeds.bbci.co.uk/mundo/rss.xml"
+      - name: "Reuters ES"
+        url: "https://feeds.reuters.com/reuters/MXTopNews"
