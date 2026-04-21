@@ -16,7 +16,7 @@ Nada más. Solo el JSON. Sin markdown, sin explicaciones."""
 
 def summarize_article(title: str, raw_text: str, category: str) -> dict:
     response = client.chat.completions.create(
-        model="model="llama-3.3-70b-versatile",",
+        model="llama-3.3-70b-versatile",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": f"Categoría: {category}\nTítulo: {title}\nContenido: {raw_text[:1500]}"}
